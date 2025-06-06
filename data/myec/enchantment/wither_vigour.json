@@ -1,0 +1,61 @@
+{
+  "description": {
+    "translate": "enchantment.myec.wither_vigour",
+    "fallback": "Vigour And Wither"
+  },
+  "exclusive_set": "#myec:exclusive_set/swords_effect",
+  "supported_items": "#minecraft:enchantable/fire_aspect",
+  "primary_items": "#minecraft:enchantable/fire_aspect",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 16
+  },
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 16
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:wither",
+          "min_duration": 8,
+          "max_duration": 10,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        },
+        "requirements": {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "type": "minecraft:wither_skeleton"
+            }
+          }
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:speed",
+          "min_duration": 8,
+          "max_duration": 10,
+          "min_amplifier": 1,
+          "max_amplifier": 1
+        }
+      }
+    ]
+  }
+}
