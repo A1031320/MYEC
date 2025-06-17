@@ -2,9 +2,11 @@
     "enchantment.myec.illagers_bane": "灾厄杀手",
     "enchantment.myec.illagers_bane.desc": "对灾厄村民与女巫造成额外伤害",
     "enchantment.myec.wither_vigour": "活力汲取",
-    "enchantment.myec.wither_vigour.desc": "攻击附加凋零效果的同时获得速度效果",
+    "enchantment.myec.wither_vigour.desc": "攻击附加凋零效果的同时获得力量效果",
     "enchantment.myec.levitation_stab": "漂浮刺伤",
     "enchantment.myec.levitation_stab.desc": "使三叉戟刺中敌人时施加漂浮效果",
     "enchantment.myec.heavy_damage": "重伤",
-    "enchantment.myec.heavy_damage.desc": "重武器的攻击附有虚弱与缓慢效果"
+    "enchantment.myec.heavy_damage.desc": "重武器的攻击附有虚弱与缓慢效果",
+    "enchantment.myec.firm": "安如磐石",
+    "enchantment.myec.firm.desc": "提高胸甲的击退抗性"
 }

@@ -1,8 +1,9 @@
 {
   "values": [
-  "#myec:levitation_coated",
-  "#myec:illagers_bane",
-  "#myec:wither_coated",
-  "myec:weakness_coated"
+    "myec:levitation_stab",
+    "myec:illagers_bane",
+    "myec:wither_vigour",
+    "myec:heavy_damage",
+    "myec:firm"
   ]
 }

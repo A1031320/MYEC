@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "SSS",
+        "SBS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:coal"
+        },
+        "B": {
+            "item": "minecraft:skeleton_skull"
+        }
+    },
+    "result": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+    }
+}
