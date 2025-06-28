@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "myec",
+    "version": "1.4.3",
+    "name": "More Yearn for Enchantments and Crafts",
+    "description": "To provide you with more Echantments and Recipes",
+    "authors": [
+        "A1031320"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/myec",
+        "sources": "https://github.com/A1031320/MYEC"
+    },
+    "license": "MIT",
+    "icon": "myec.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

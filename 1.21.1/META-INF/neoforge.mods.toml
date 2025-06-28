@@ -1,0 +1,8 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'MIT'
+showAsResourcePack = false
+mods = [
+	{ modId = 'myec', version = '1.4.3', displayName = 'More Yearn for Enchantments and Crafts', description = 'To provide you with more Echantments and Recipes', logoFile = 'myec.png', updateJSONURL = 'https://modrinth.com/mod/myec', credits = '', authors = 'A1031320', displayURL = 'https://github.com/A1031320/MYEC' },
+]
