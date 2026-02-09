@@ -1,0 +1,37 @@
+{
+  "description": {
+    "translate": "enchantment.myec.long_sword",
+    "fallback": "Long Sword"
+  },
+  "exclusive_set": "minecraft:knockback",
+  "supported_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 2,
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base":60,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 3,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:player.entity_interaction_range",
+        "id": "myec:enchantment.lone_sword",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        }
+      }
+    ]
+  }
+}

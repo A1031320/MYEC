@@ -1,0 +1,36 @@
+{
+	"description": {
+		"translate": "enchantment.myec.bulwark",
+    "fallback": "Bulwark"
+	},
+	"supported_items": "minecraft:shield",
+	"primary_items":"minecraft:shield",
+	"weight": 5,
+	"max_cost": {
+    "base": 18,
+    "per_level_above_first":8
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+	"anvil_cost": 3,
+	"slots": [
+		"offhand"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:generic.armor",
+				"id": "myec:enchantment.bulwark",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1.5,
+					"per_level_above_first": 1.5
+				}
+			}
+		]
+	}
+}

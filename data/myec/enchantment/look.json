@@ -1,0 +1,36 @@
+{
+	"description": {
+		"translate": "enchantment.myec.look",
+    "fallback": "Look"
+	},
+	"supported_items": "#minecraft:enchantable/head_armor",
+	"primary_items":"#minecraft:enchantable/head_armor",
+	"weight": 5,
+	"max_cost": {
+    "base": 18,
+    "per_level_above_first":8
+    },
+    "max_level": 4,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+	"anvil_cost": 3,
+	"slots": [
+		"head"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:player.block_interaction_range",
+				"id": "myec:enchantment.look",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.5,
+					"per_level_above_first": 0.5
+				}
+			}
+		]
+	}
+}

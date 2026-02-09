@@ -1,0 +1,56 @@
+{
+	"description": {
+		"translate": "enchantment.myec.swift_pounce",
+    "fallback": "Swift Pounce"
+	},
+	"supported_items": "#myec:enchantable/pets",
+	"primary_items":"#myec:enchantable/pets",
+	"weight": 5,
+	"max_cost": {
+    "base": 18,
+    "per_level_above_first":8
+    },
+    "max_level": 3,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+	"anvil_cost": 3,
+	"slots": [
+		"body"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"id": "myec:enchantment.petsat",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 1.5,
+					"per_level_above_first": 1.5
+				}
+			},
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"id": "myec:enchantment.petssp",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.015,
+					"per_level_above_first": 0.015
+				}
+			},
+			{
+				"attribute": "minecraft:generic.knockback_resistance",
+				"id": "myec:enchantment.petsfi",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 0.2,
+					"per_level_above_first": 0.2
+				}
+			}
+		]
+	}
+}

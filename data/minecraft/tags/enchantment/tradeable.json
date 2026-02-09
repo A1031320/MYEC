@@ -1,0 +1,12 @@
+{
+  "values": [
+    "myec:heavy_damage",
+    "myec:lightweight",
+    "myec:long_sword",
+    "myec:health",
+    "myec:toughness",
+    "myec:dt",
+    "myec:mr",
+    "myec:bulwark"
+  ]
+}

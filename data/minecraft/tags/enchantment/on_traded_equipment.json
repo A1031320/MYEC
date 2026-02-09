@@ -1,0 +1,9 @@
+{
+  "values": [
+    "myec:heavy_damage",
+    "myec:lightweight",
+    "myec:toughness",
+    "myec:health",
+    "myec:mr"
+  ]
+}

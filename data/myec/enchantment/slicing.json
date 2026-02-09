@@ -1,0 +1,40 @@
+{
+  "description": {
+    "translate": "enchantment.myec.slicing",
+    "fallback": "Slicing"
+  },
+  "supported_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 2,
+  "max_level": 2,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base":25,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:player.mining_efficiency",
+          "id": "myec:enchantment.slicing",
+          "operation": "add_value",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 80,
+            "per_level_above_first": 350
+          }
+        }
+
+      }
+    ]
+  }
+}

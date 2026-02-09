@@ -1,0 +1,37 @@
+{
+	"description": {
+		"translate": "enchantment.myec.health",
+    "fallback": "Health"
+	},
+	"supported_items": "#minecraft:enchantable/chest_armor",
+	"primary_items":"#minecraft:enchantable/chest_armor",
+	"exclusive_set": "#minecraft:exclusive_set/chest",
+	"weight": 5,
+	"max_cost": {
+    "base": 18,
+    "per_level_above_first":8
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 8
+    },
+	"anvil_cost": 3,
+	"slots": [
+		"chest"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"attribute": "minecraft:generic.max_health",
+				"id": "myec:enchantment.health",
+				"operation": "add_value",
+				"amount": {
+					"type": "minecraft:linear",
+					"base": 4,
+					"per_level_above_first": 4
+				}
+			}
+		]
+	}
+}
